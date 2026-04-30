@@ -11,6 +11,11 @@ npm run build:docs           # Generate docs/index.html locally
 npm test                     # Run all tests
 ```
 
+If you get an `[ERR_MODULE_NOT_FOUND]`, then you need to install the required node modules first
+```bash
+npm install
+```
+
 ## Static site
 
 The project can generate a static HTML page from the same rocket definition used by the CLI in `git-rocket.js`.
