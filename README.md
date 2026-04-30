@@ -12,6 +12,7 @@ npm test                     # Run all tests
 ```
 
 If you get an `[ERR_MODULE_NOT_FOUND]`, then you need to install the required node modules first
+
 ```bash
 npm install
 ```
